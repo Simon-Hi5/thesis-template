@@ -2,9 +2,9 @@ name: Build PDF
 
 on:
   push:
-    branches: [ "main", "english" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "english" ]
+    branches: [ "main" ]
 
 jobs:
   build:
