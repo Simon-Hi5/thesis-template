@@ -64,7 +64,9 @@ When adding new TeX files, include them in `Thesis-Template.tex` using `\input{p
 
 For the local setup, Linux (Debian/Ubuntu) is recommended. You can install all necessary packages with:
 
-`sudo apt-get install -y make texlive texlive-latex-extra texlive-extra-utils texlive-science biber chktex`
+```
+sudo apt-get install -y make texlive texlive-latex-extra texlive-extra-utils texlive-science biber chktex
+```
 
 This command installs:
 
@@ -78,9 +80,11 @@ Visual Studio Code (VS Code) is recommended as the editor, as all necessary exte
 
 ### Build PDF
 
-To build the final PDF, simply run:
+First, the repository must be downloaded or cloned. Then, run the following command in the project's root directory to generate the final PDF:
 
-`make`
+```
+make
+```
 
 This will execute the following sequence:
 
